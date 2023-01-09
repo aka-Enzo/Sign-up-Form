@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+}
+.left, 
+#logo {
+    display: flex;
+    flex-flow: row wrap;
+    font-family: 'Poppins', sans-serif;
+}
+
+#pic {
+    background-image: url(./img/background.jpg);
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    width: 40vw;
+    height: 100vh;
+}
+
+#logo{
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: relative;
+    top: 20vh;
+    gap: 1vw;
+    padding: 15px 0;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.logo {
+    height: 10vh;
+}
+
+.right {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 60vw;
+}
+/* 
+font-family: 'Oxygen', sans-serif; // dummy
+font-family: 'Archivo Narrow', sans-serif; // form */
