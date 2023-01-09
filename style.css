@@ -7,8 +7,9 @@
 .container {
     width: 100vw;
     height: 100vh;
+    display: flex;
 }
-.left, 
+.container, 
 #logo {
     display: flex;
     flex-flow: row wrap;
@@ -31,7 +32,7 @@
     top: 20vh;
     gap: 1vw;
     padding: 15px 0;
-    color: white;
+    color: #fff;
     justify-content: center;
     align-items: center;
     font-size: 30px;
@@ -45,7 +46,83 @@
     display: flex;
     flex-flow: column nowrap;
     width: 60vw;
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    justify-content: center;
 }
-/* 
-font-family: 'Oxygen', sans-serif; // dummy
-font-family: 'Archivo Narrow', sans-serif; // form */
+
+.text {
+    font-family: 'Oxygen', sans-serif;
+    padding-top: 20px;
+}
+
+#below {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.form-text {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+.form {
+    box-shadow: 0 5px 30px -10px #8840b3;
+    font-family: 'Archivo Narrow', sans-serif;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+
+.input {
+    display: flex;
+    flex-flow: column wrap;
+    width: 40%;
+    font-size: 0.7rem;
+    opacity: 80%;
+}
+
+input {
+    background-color: #222;
+    border: 2px solid #8840b3;
+    border-radius: 2px;
+    
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid #fff;
+}
+
+button {
+    background-color: #222;
+    border: 1px solid #8840b3;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 5px;
+    font-family: 'Poppins',sans-serif;
+    margin-top: 20px;
+    padding: 5px 20px;
+}
+
+.log-in {
+    font-family: 'Poppins',sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #8840b3;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #bbb;
+}
